@@ -13,27 +13,3 @@ Show success and errors as well as shown in the UI. All fields are mandatory for
 Relevant Links:
 Figma Link- https://www.figma.com/file/GWUrnugwWlzzxjMJewgoR8/Contest?type=design&node-id=0-1&t=GolX2qVh9DEW8F30-0
 
-Marking Scheme
-Handle authentication using Local Storage (10 marks)
-Proper implementation of authentication functionality using Local Storage
-Create UI and pages (20 marks)
-Creation of UI components for signup and profile pages
-Proper implementation of the two pages as per the Figma design
-Store user state in local storage (10 marks)
-Proper implementation of storing the user state in local storage on signup
-Create user state with access token (10 marks)
-Creation of user state with all user properties and an access token
-Redirect to profile page and display user details (10 marks)
-Redirecting the user to the /profile page after successful signup
-Proper display of user details on the profile page
-Logout functionality (10 marks)
-Setting local storage back to null and removing the access token on logout
-Redirect to signup if no access token, redirect to profile if access token (10 marks)
-Using scripts to redirect to the signup page if the local storage does not contain an access token when accessing /profile
-Using scripts to redirect to the profile page if the local storage contains an access token when accessing the signup page
-Display success and error messages (10 marks)
-Proper implementation of success and error messages as shown in the UI
-Validation and redirection (5 marks)
-Implementing mandatory field validation
-Redirecting to the profile page after successful signup
-Deployment(5 marks)
